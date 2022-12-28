@@ -2,6 +2,7 @@
 sequenceDiagram
 Webhook/jaas8x8->>R2: Envio das informações para registro
 Webhook/jaas8x8->>QUEUE: Envio das informações para gravação
+Note right of Webhook/jaas8x8: Teste
 loop Gravado?
 R2->>R2: Já foi gravado?
 end
